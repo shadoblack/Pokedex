@@ -1,0 +1,9 @@
+<div id="container" class="seleccionado">
+    <img src="./../../../assets/img/arrow-drop-down-svgrepo-com.svg" alt="" id="flecha">
+    <div id="tarjeta">
+        <div id="circulo"></div>
+        <img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/{{id}}.png' alt="img pokemon">
+        <span>No. {{id}}</span>
+        <span *ngIf="data">{{data.name | titlecase}}</span>
+    </div>
+</div>
